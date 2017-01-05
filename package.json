@@ -1,0 +1,29 @@
+{
+  "name": "moment-tz-dep-test",
+  "version": "1.0.0",
+  "description": "Test of moment-timezone nested dependencies",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm install ./moment-tz-nested-dep",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/basicdays/node-moment-tz-dep-test.git"
+  },
+  "keywords": [
+    "moment",
+    "moment-timezone",
+    "bug"
+  ],
+  "author": "BasicDays <info@basicdays.com> (https://www.basicdays.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basicdays/node-moment-tz-dep-test/issues"
+  },
+  "homepage": "https://github.com/basicdays/node-moment-tz-dep-test#readme",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11"
+  }
+}

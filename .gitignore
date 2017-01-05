@@ -1,0 +1,19 @@
+# node.js
+/package/
+/*.tgz
+node_modules/
+npm-debug.log
+
+# Editors
+/.idea/dictionaries/
+/.idea/*.local.xml
+/.idea/workspace.xml
+*.swp
+*.vim
+*~
+
+# Git temp files
+*.orig
+
+# File Managers
+.DS_Store

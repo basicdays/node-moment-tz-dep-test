@@ -1,0 +1,28 @@
+{
+  "name": "moment-tz-nested-dep",
+  "version": "1.0.0",
+  "description": "The nested dep",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/basicdays/node-moment-tz-dep-test.git"
+  },
+  "keywords": [
+    "moment",
+    "moment-timezone",
+    "bug"
+  ],
+  "author": "BasicDays <info@basicdays.com> (https://www.basicdays.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basicdays/node-moment-tz-dep-test/issues"
+  },
+  "homepage": "https://github.com/basicdays/node-moment-tz-dep-test#readme",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "moment-timezone": "0.5.10"
+  }
+}
